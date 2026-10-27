@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "debug.javascript.terminalOptions": {
+    "skipFiles": [
+      "<node_internals>/**",
+      "**/node_modules/**",
+      "**/src/lib/**",
+      "**/src/frontend/websocket.js",
+      "**/promises.js",
+      "<node_internals>/internal/**"
+    ]
+  }
+}
